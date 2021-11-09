@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b75ca5d6-b077-4705-9cd8-92b4aded0042": {
+      "ProjectGuid": "b75ca5d6-b077-4705-9cd8-92b4aded0042",
+      "DisplayName": "Vovk.Lab5-1",
+      "ColorIndex": 0
+    },
+    "20d5ebb8-a50f-4058-b3dd-ea4297bf3c79": {
+      "ProjectGuid": "20d5ebb8-a50f-4058-b3dd-ea4297bf3c79",
+      "DisplayName": "Vovk.Lab5-2",
+      "ColorIndex": 1
+    },
+    "9458e787-df60-4a73-ace4-ab19e244204f": {
+      "ProjectGuid": "9458e787-df60-4a73-ace4-ab19e244204f",
+      "DisplayName": "Vovk.Lab5-3",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
