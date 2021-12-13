@@ -10,23 +10,19 @@ namespace Vovk.Lab5
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите числовой ряд");
-            Console.WriteLine("Расчет суммы ряда");
-            double S = 0;
+            Console.WriteLine("Введите x");
             double x = Convert.ToDouble(Console.ReadLine());
-            for (int k = 1; k < 7; k++)
+            double S = 0;
+            double P = 1;
+            int n = 7;
+            for (int k = 1; k <= n; k++)
             {
-                double F = Func(x, k);
-                S += F;
-                Console.WriteLine(S);
+                S+= x * Math.Sin(x) / Math.Pow(k, 3);
+                P*= x * Math.Sin(x) / Math.Pow(k, 3);
+              
             }
-            Console.WriteLine("Расчет произведения ряда");
-            for (int k = 1; k < 7; k++)
-            {
-                double F = Func(x, k);
-                S *= F;
-                Console.WriteLine(S);
-            }
+            Console.WriteLine($"Сумма: {S}");
+            Console.WriteLine($"Произведение: {P}");
         }
     }
 }

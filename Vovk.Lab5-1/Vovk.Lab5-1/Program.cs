@@ -20,25 +20,25 @@ namespace Vovk.Lab5
                 switch (cycle)
                 {
                     case "for":
-                        for (double x = 0; x < 1; x = x + 0.1)
+                        for (double x = 0; x < 5; x = x + 0.1)
                         {
                             for (double k = 1; k < 1.2; k = k + 0.1)
                             {
                                 double t = Function(x, k);
-                                Console.Write($"{Math.Round(t, 5)}\t");
+                                Console.WriteLine($"{Math.Round(t, 5)}\t");
 
                             }
-                            Console.WriteLine();
 
+                            Console.WriteLine();
                         }
                         break;
 
                     case "while":
                         double n = 0;
-                        while (n < 11)
+                        while (n < 5)
                         {
                             double m = 1;
-                            while (m < 1)
+                            while (m < 1.2)
                             {
                                 double t = Function(n, m);
                                 Console.Write($"{Math.Round(t, 5)}\t");
@@ -62,11 +62,11 @@ namespace Vovk.Lab5
                                 c = c + 0.1;
                             }
 
-                            while (z < 1);
+                            while (c < 1.2);
                             Console.WriteLine();
                             z = z + 0.1;
                         }
-                        while (z < 1);
+                        while (z < 5);
 
                         break;
                 }
