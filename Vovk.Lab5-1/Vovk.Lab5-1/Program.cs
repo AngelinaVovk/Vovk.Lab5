@@ -7,7 +7,7 @@ namespace Vovk.Lab5
         static double Function(double x, double k)
         {
 
-            double F = (x * Math.Sin(x)) / Math.Pow(k, 3);
+            double F = x * Math.Sin(x) / Math.Pow(k, 3);
             return F;
         }
         static void Main(string[] args)
