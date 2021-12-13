@@ -3,11 +3,6 @@ namespace Vovk.Lab5
 {
     class Program
     {
-        static double Func(double x, double k)
-        {
-            double F = (x * Math.Sin(x)) / Math.Pow(k, 3);
-            return F;
-        }
         static void Main(string[] args)
         {
             Console.WriteLine("Введите x");
